@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "practice-asyncio"
+version = "0.1.0"
+description = ""
+authors = ["saatarko <saatar@tut.by>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.2"
+aiohttp = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
